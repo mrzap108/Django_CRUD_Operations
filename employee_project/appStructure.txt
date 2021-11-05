@@ -1,0 +1,23 @@
+this app structure specifies the exact structure of the app
+
+employee_project
+|
+*--*employee_register(app folder)       ========> the actual application
+|  |
+|  *--*migrations (includes files related to migrations)
+|  |
+|  *--*templates
+|  |  |--*employee_register
+|  |  |  |--base.html
+|  |  |  |--employee_form.html
+|  |  |  |--employee_list.html
+|  |  
+|  |--modesl.py (python class for each database model)
+|  |--urls.py   (app specific url mapping)
+|  |--views.py  (view forms to handle )
+|  |--forms.py
+|
+*--*employee_project
+|  |
+|  |--settings.py(project config file)
+|  |--urls.py(url mapping for the project)

@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'employee_register'
+    'employee_register',
+    'crispy_forms'      #used to customize forms
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'      #use this line for css styles forms when adding crispy forms; bootstrap used here is version 4.3.1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
